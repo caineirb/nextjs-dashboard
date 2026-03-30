@@ -1,6 +1,16 @@
+import Link from 'next/link';
+
 export default function Page() {
   return (
     <main className="min-h-screen bg-slate-950 px-4 py-8 text-slate-100 sm:px-6 lg:px-10">
+      <div className="mt-5 flex justify-center">
+            <Link
+              href="/giogay"
+              className="inline-flex rounded-lg border border-sky-400 bg-sky-500/20 px-5 py-2 text-sm font-semibold tracking-wide text-sky-200 transition hover:bg-sky-500/35"
+            >
+              click here gaylord
+            </Link>
+          </div>
       <div className="mx-auto flex w-full max-w-6xl flex-col gap-8">
         <section className="rounded-2xl border border-slate-800 bg-slate-900/70 p-4 shadow-xl sm:p-6">
           <p className="mb-4 text-center">
@@ -16,7 +26,7 @@ export default function Page() {
               alt="Typing intro"
               className="mx-auto w-full max-w-3xl"
             />
-          </p>
+          </p>    
         </section>
 
         <section className="rounded-2xl border border-slate-800 bg-gradient-to-br from-slate-900 to-slate-950 p-6">
